@@ -1,16 +1,11 @@
----
-title: "CodeBook"
-output: html_document
----
-
 This is a summary dataset conatianing mean of each variable group by Subject and Activity from the orginal Time and Frequency domain mean measurements taken from mobile acceloromete r and gyroscope.
 
 
 ## Transformation Steps (see [run_analysis.R](./run_analysis.R))
-  * Original test and training dataset along with subject and activity data were merged into new dataset.
-  * All variables labeled
-  * Removed all except mean mesaurements for X, Y, Z axis
-  * Sumarised again by Subject and Acitvity for each variables.
+  * Original test and training data along with subject and activity data were merged into a new dataset.
+  * All variables in the dataset were labeled/re-labed
+  * All other variables except mean mesaurements for X, Y, Z axis were removed
+  * Clean dataset is then sumarised by Subject and Acitvity for each variables to creat new tiday dataset.
 
 
 ### Variables
