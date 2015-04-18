@@ -65,9 +65,6 @@ names(merged_data) <- gsub("\\(\\)", "", names(merged_data))
 names(merged_data) <- gsub("mean", "Mean", names(merged_data))
 names(merged_data) <- gsub("std", "Std", names(merged_data))
 
-# write 1st dataset to disk
-#write.table(merged_data, "merged_data.txt", row.name=FALSE) 
-
 
 # Create a second, independent tidy data set with the average 
 # of each variable for each activity and each subject.

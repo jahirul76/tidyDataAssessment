@@ -1,12 +1,6 @@
 This is a summary dataset containing mean of each variable group by Subject and Activity from the original Time and Frequency domain mean measurements taken from mobile accelerometer and gyroscope.
 
 
-## Transformation Steps (see [run_analysis.R](./run_analysis.R))
-  * Original test and training data along with subject and activity data were merged into a new dataset.
-  * All variables in the dataset were labelled/re-labelled
-  * All other variables except mean measurements for X, Y, Z axis were removed
-  * Clean dataset is then summarised by Subject and Activity variable for each variables to create new tidy dataset.
-
 
 ### Variables
 
